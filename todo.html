@@ -1,16 +1,15 @@
 <div id="myDIV" class="header">
     <h2>My To Do List</h2>
     <input type="text" id="myInput" placeholder="Title...">
-    <span onclick="newElement()" class="addBtn">Add</span>
+    <span onclick="newElement()" class="addBtn">Add to list</span>
   </div>
   
   <ul id="myUL">
-    <li>Hit the gym</li>
-    <li class="checked">Pay bills</li>
-    <li>Meet George</li>
-    <li>Buy eggs</li>
+    <li>complete my cw notes</li>
+    <li class="checked">UPI transaction</li>
+    <li>Google meet</li>
+    <li>learn HTML</li>
     <li>Read a book</li>
-    <li>Organize office</li>
   </ul>
   <style>{
     box-sizing: border-box;
@@ -43,8 +42,8 @@
   }
   
   ul li.checked {
-    background: #888;
-    color: #fff;
+    background: #42e966;
+    color: #0f0b0b;
     text-decoration: line-through;
   }
 
@@ -74,7 +73,7 @@
   }
   
   .header {
-    background-color: #f44336;
+    background-color: #bfe2f0;
     padding: 30px 40px;
     color: white;
     text-align: center;
@@ -92,16 +91,16 @@
     border-radius: 0;
     width: 75%;
     padding: 10px;
-    float: left;
+    float: center;
     font-size: 16px;
   }
   
   .addBtn {
     padding: 10px;
     width: 25%;
-    background: #d9d9d9;
-    color: #555;
-    float: left;
+    background: #363131;
+    color: #f7e9e9;
+    float: center;
     text-align: center;
     font-size: 16px;
     cursor: pointer;
