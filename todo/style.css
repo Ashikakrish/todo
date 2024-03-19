@@ -1,17 +1,9 @@
-<div id="myDIV" class="header">
-    <h2>My To Do List</h2>
-    <input type="text" id="myInput" placeholder="Title...">
-    <span onclick="newElement()" class="addBtn">Add to list</span>
-  </div>
-  
-  <ul id="myUL">
-    <li>complete my cw notes</li>
-    <li class="checked">UPI transaction</li>
-    <li>Google meet</li>
-    <li>learn HTML</li>
-    <li>Read a book</li>
-  </ul>
-  <style>{
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+*{
     box-sizing: border-box;
   }
   
@@ -89,7 +81,7 @@
     margin: 0;
     border: none;
     border-radius: 0;
-    width: 75%;
+    width: 50%;
     padding: 10px;
     float: center;
     font-size: 16px;
@@ -111,4 +103,3 @@
   .addBtn:hover {
     background-color: #bbb;
   }
-  </style>
